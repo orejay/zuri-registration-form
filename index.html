@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="d-container">
+        <div id="side-text">
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p>
+                See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+        <div id="form-bx">
+            <div id="trial">
+                <div>
+                    <span>Try it free 7 days</span> then $20/mo. thereafter
+                </div>
+            </div>
+            <div id="form">
+                <form>
+                    <input type="text" name="first-name" placeholder="First Name" id="f-name" class="field" required>
+                    <div id="f-err" class="err"></div>
+                    <input type="text" name="last-name" placeholder="Last Name" id="l-name" class="field" required>
+                    <div id="l-err" class="err"></div>
+                    <input type="email" name="email" placeholder="Email Address" id="email" class="field" required>
+                    <div id="email-err" class="err"></div>
+                    <input type="password" name="password" placeholder="Password" id="password" class="field" required>
+                    <div id="p-err" class="err"></div>
+                    <input type="submit" name="submit" value="CLAIM YOUR FREE TRIAL" id="submit">
+                    <div><p>By clicking the button you are agreeing to our <a>Terms and Services</a></p></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
